@@ -1304,7 +1304,7 @@ figure.effect-julia:hover p {
   margin-bottom: 1.3rem;
   color: var(--color-black);
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 14pt;
   line-height: 1.3
 }
 
@@ -1314,7 +1314,7 @@ figure.effect-julia:hover p {
   align-items: center;
   color: rgba(0, 0, 0, .5);
   font-weight: 500;
-  font-size: 1.6rem
+  font-size: 14pt
 }
 
 .contacts-map-card-list__phone svg,
