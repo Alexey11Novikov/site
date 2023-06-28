@@ -5,7 +5,7 @@
 
 /* <<< Reset CSS >>> */
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   color: #6c757d;
   line-height: 1.5;
@@ -211,7 +211,7 @@ textarea.form-control {
   right: 0;
   width: 26%;
   height: 100%;
-  background-color: #4D8F66;
+  background-color: #4d8f66;
   overflow-y: auto;
   z-index: 1;
   display: -webkit-box;
@@ -312,7 +312,7 @@ textarea.form-control {
   opacity: 1;
   width: 25px;
   height: 3px;
-  background-color: #75C381;
+  background-color: #75c381;
   margin: 0 auto;
   left: 0;
   -webkit-transition: all 0.25s ease-in-out;
@@ -416,7 +416,7 @@ textarea.form-control {
 }
 
 .navbar .navbar-collapse::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   background-color: #fff;
@@ -424,7 +424,7 @@ textarea.form-control {
   top: 0;
 }
 
-.navbar .navbar-nav>.nav-item {
+.navbar .navbar-nav > .nav-item {
   font-weight: 500;
   font-size: 18px;
   background-image: url(../img/menu-item-bg.png);
@@ -442,66 +442,66 @@ textarea.form-control {
 }
 
 @media (max-width: 1366px) {
-  .navbar .navbar-nav>.nav-item {
+  .navbar .navbar-nav > .nav-item {
     font-size: 16px;
     padding-left: 53px;
   }
 }
 
-.navbar .navbar-nav>.nav-item .icn {
+.navbar .navbar-nav > .nav-item .icn {
   padding-right: 20px;
   display: inline-block;
 }
 
 @media (max-width: 1366px) {
-  .navbar .navbar-nav>.nav-item .icn {
+  .navbar .navbar-nav > .nav-item .icn {
     padding-right: 10px;
   }
 }
 
-.navbar .navbar-nav>.nav-item:last-child {
+.navbar .navbar-nav > .nav-item:last-child {
   margin-bottom: 0;
 }
 
-.navbar .navbar-nav>.nav-item:hover>a.nav-link,
-.navbar .navbar-nav>.nav-item.active>a.nav-link,
-.navbar .navbar-nav>.nav-item.current-menu-ancestor>a.dropdown-toggle {
+.navbar .navbar-nav > .nav-item:hover > a.nav-link,
+.navbar .navbar-nav > .nav-item.active > a.nav-link,
+.navbar .navbar-nav > .nav-item.current-menu-ancestor > a.dropdown-toggle {
   background-color: transparent;
   outline: 0;
   color: #99ccff;
   transition: all 0.3s ease;
 }
 
-.navbar .navbar-nav>.nav-item>a.nav-link {
+.navbar .navbar-nav > .nav-item > a.nav-link {
   color: #fff;
   -webkit-transition: all 0s ease-in-out;
   transition: all 0s ease-in-out;
   padding: 0;
 }
 
-.navbar .navbar-nav>.nav-item>a.nav-link.current {
+.navbar .navbar-nav > .nav-item > a.nav-link.current {
   color: #99ccff;
 }
 
-.navbar .navbar-nav>.nav-item>a.nav-link.dropdown-toggle::after {
-  content: '';
+.navbar .navbar-nav > .nav-item > a.nav-link.dropdown-toggle::after {
+  content: "";
   vertical-align: middle;
 }
 
 @media (max-width: 767px) {
-  .navbar .navbar-nav>.nav-item>a.nav-link.dropdown-toggle::after {
+  .navbar .navbar-nav > .nav-item > a.nav-link.dropdown-toggle::after {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .navbar .navbar-nav>.nav-item>a.nav-link {
+  .navbar .navbar-nav > .nav-item > a.nav-link {
     padding: 10px;
     color: #fff;
   }
 }
 
-.navbar .navbar-nav>.nav-item ul.dropdown-menu {
+.navbar .navbar-nav > .nav-item ul.dropdown-menu {
   padding: 0;
   width: auto;
   border-radius: 0;
@@ -509,24 +509,29 @@ textarea.form-control {
   margin: 0;
 }
 
-.navbar .navbar-nav>.nav-item ul.dropdown-menu .nav-item {
+.navbar .navbar-nav > .nav-item ul.dropdown-menu .nav-item {
   font-size: 16px;
   font-weight: 300;
 }
 
-.navbar .navbar-nav>.nav-item ul.dropdown-menu .nav-item>a.dropdown-item {
+.navbar .navbar-nav > .nav-item ul.dropdown-menu .nav-item > a.dropdown-item {
   border-bottom: 0;
   color: #fff;
   padding: 5px;
 }
 
 @media (max-width: 767px) {
-  .navbar .navbar-nav>.nav-item ul.dropdown-menu .nav-item>a.dropdown-item {
+  .navbar .navbar-nav > .nav-item ul.dropdown-menu .nav-item > a.dropdown-item {
     padding-left: 20px;
   }
 }
 
-.navbar .navbar-nav>.nav-item ul.dropdown-menu .nav-item>a.dropdown-item.dropdown-toggle {
+.navbar
+  .navbar-nav
+  > .nav-item
+  ul.dropdown-menu
+  .nav-item
+  > a.dropdown-item.dropdown-toggle {
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
@@ -535,7 +540,12 @@ textarea.form-control {
   align-items: center;
 }
 
-.navbar .navbar-nav>.nav-item ul.dropdown-menu .nav-item>a.dropdown-item.dropdown-toggle::after {
+.navbar
+  .navbar-nav
+  > .nav-item
+  ul.dropdown-menu
+  .nav-item
+  > a.dropdown-item.dropdown-toggle::after {
   height: 2px !important;
   background-color: cyan;
   opacity: 1;
@@ -548,24 +558,39 @@ textarea.form-control {
 }
 
 @media (max-width: 767px) {
-  .navbar .navbar-nav>.nav-item ul.dropdown-menu .nav-item>a.dropdown-item.dropdown-toggle::after {
+  .navbar
+    .navbar-nav
+    > .nav-item
+    ul.dropdown-menu
+    .nav-item
+    > a.dropdown-item.dropdown-toggle::after {
     display: none;
   }
 }
 
-.navbar .navbar-nav>.nav-item ul.dropdown-menu .nav-item:hover>a,
-.navbar .navbar-nav>.nav-item ul.dropdown-menu .nav-item.active>a,
-.navbar .navbar-nav>.nav-item ul.dropdown-menu .nav-item.current-menu-ancestor>a.dropdown-toggle {
+.navbar .navbar-nav > .nav-item ul.dropdown-menu .nav-item:hover > a,
+.navbar .navbar-nav > .nav-item ul.dropdown-menu .nav-item.active > a,
+.navbar
+  .navbar-nav
+  > .nav-item
+  ul.dropdown-menu
+  .nav-item.current-menu-ancestor
+  > a.dropdown-toggle {
   font-weight: 500;
   color: #fff;
   background-color: lightblue;
 }
 
-.navbar .navbar-nav>.nav-item ul.dropdown-menu .nav-item:hover>a.dropdown-toggle::after {
+.navbar
+  .navbar-nav
+  > .nav-item
+  ul.dropdown-menu
+  .nav-item:hover
+  > a.dropdown-toggle::after {
   opacity: 1;
 }
 
-.navbar .navbar-nav>.nav-item ul.dropdown-menu .nav-item ul.dropdown-menu {
+.navbar .navbar-nav > .nav-item ul.dropdown-menu .nav-item ul.dropdown-menu {
   padding: 0;
 }
 
@@ -573,24 +598,23 @@ textarea.form-control {
   .navbar .navbar-nav .caret::before {
     margin-left: 10px;
     font-size: 26px;
-    content: '\f107';
+    content: "\f107";
     font-family: "fontawesome";
     vertical-align: middle;
   }
 
   .navbar .navbar-nav .caret.caret-open::before {
-    content: '\f106';
+    content: "\f106";
   }
 }
 
 @media only screen and (min-width: 768px) {
-
   /**:: First Dropdown ::**/
   .navbar .navbar-collapse ul li {
     position: relative;
   }
 
-  .navbar .navbar-collapse ul li:hover>ul {
+  .navbar .navbar-collapse ul li:hover > ul {
     display: block;
   }
 
@@ -608,7 +632,7 @@ textarea.form-control {
     position: relative;
   }
 
-  .navbar .navbar-collapse ul ul li:hover>ul {
+  .navbar .navbar-collapse ul ul li:hover > ul {
     display: block;
   }
 
@@ -674,13 +698,13 @@ textarea.form-control {
     height: 0;
   }
 
-  .navbar .navbar-nav>.nav-item {
+  .navbar .navbar-nav > .nav-item {
     min-height: 45px;
     margin-bottom: 10px;
     background-size: contain;
   }
 
-  .navbar .navbar-nav>.nav-item {
+  .navbar .navbar-nav > .nav-item {
     padding-left: 30px;
   }
 
@@ -801,7 +825,7 @@ textarea.form-control {
   padding-top: 90px !important;
   padding-bottom: 90px !important;
   min-height: 850px;
-  background-color: #75C381;
+  background-color: #75c381;
 }
 
 .work-section .container {
@@ -931,7 +955,7 @@ textarea.form-control {
 }
 
 .gallery-slider figure figcaption,
-.gallery-slider figure figcaption>a {
+.gallery-slider figure figcaption > a {
   position: absolute;
   top: 0;
   left: 0;
@@ -941,7 +965,7 @@ textarea.form-control {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.gallery-slider figure figcaption>a {
+.gallery-slider figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -1085,7 +1109,7 @@ figure.effect-julia:hover p {
 }
 
 .gallery-section .slick-dots li {
-  background-color: #75C381;
+  background-color: #75c381;
   width: 20px;
   height: 20px;
   border-radius: 100%;
@@ -1103,7 +1127,7 @@ figure.effect-julia:hover p {
 }
 
 .contact-section {
-  background-color: #75C381;
+  background-color: #75c381;
   flex-direction: column;
   justify-content: center;
 }
@@ -1200,7 +1224,7 @@ figure.effect-julia:hover p {
 /* <<< footer >>> */
 .footer {
   position: relative;
-  background-color: #75C381;
+  background-color: #75c381;
   color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1216,15 +1240,15 @@ figure.effect-julia:hover p {
 .contacts {
   position: relative;
   background: #f5f7f7;
-  border-top: .1rem solid #f2f2f2
+  border-top: 0.1rem solid #f2f2f2;
 }
 
 @media (min-width: 600px) {
   .contacts {
     margin-top: 11.5rem;
     padding-top: 0;
-    background-color: hsla(0, 0%, 74.9%, .25);
-    border-top: 0
+    background-color: hsla(0, 0%, 74.9%, 0.25);
+    border-top: 0;
   }
 
   .contacts_contacts {
@@ -1236,19 +1260,19 @@ figure.effect-julia:hover p {
   position: relative;
   z-index: 1;
   margin: 0 1.5rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: 0 1.5rem 2.5rem rgba(116, 135, 134, .15)
+  box-shadow: 0 1.5rem 2.5rem rgba(116, 135, 134, 0.15);
 }
 
 @media (min-width: 600px) {
   .contacts-map-card {
     position: absolute;
-    top: 2.5rem;
-    left: 5rem;
-    z-index: 1;
-    width: 40rem;
-    margin: 0
+    top: 1.5rem;
+    left: 1.5rem;
+    z-index: 9999999;
+    width: 25rem;
+    margin: 0;
   }
 }
 
@@ -1257,27 +1281,27 @@ figure.effect-julia:hover p {
   max-height: 40rem;
   overflow: auto;
   background: transparent;
-  border-radius: .5rem
+  border-radius: 0.5rem;
 }
 
 @media (min-width: 600px) {
   .contacts-map-card-list {
     height: 100%;
-    max-height: none
+    max-height: none;
   }
 }
 
 .contacts-map-card-list::-webkit-scrollbar {
-  width: .5rem
+  width: 0.5rem;
 }
 
 .contacts-map-card-list::-webkit-scrollbar-track {
-  background: var(--color-white)
+  background: var(--color-white);
 }
 
 .contacts-map-card-list::-webkit-scrollbar-thumb {
   background-color: var(--color-black);
-  border-radius: 1rem
+  border-radius: 1rem;
 }
 
 .contacts-map-card-list__item {
@@ -1285,18 +1309,19 @@ figure.effect-julia:hover p {
   padding: 2rem 1.5rem;
   background: var(--color-white);
   cursor: pointer;
-  transition: .2s ease-in-out
+  transition: 0.2s ease-in-out;
 }
 
 @media (min-width: 600px) {
   .contacts-map-card-list__item {
     margin-bottom: 0;
-    padding: 2.4rem 2.6rem;
-    border-bottom: .1rem solid #f2f2f2
+    padding: 0.4rem 1rem;
+    background: #f2f2f2;
+    border-bottom: 0.1rem solid #f2f2f2;
   }
 
   .contacts-map-card-list__item:hover {
-    background: #f2f2f2
+    background: #f2f2f2;
   }
 }
 
@@ -1305,16 +1330,16 @@ figure.effect-julia:hover p {
   color: var(--color-black);
   font-weight: 600;
   font-size: 14pt;
-  line-height: 1.3
+  line-height: 1.3;
 }
 
 .contacts-map-card-list__phone,
 .contacts-map-card-list__times {
   display: flex;
   align-items: center;
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
   font-weight: 500;
-  font-size: 14pt
+  font-size: 13pt;
 }
 
 .contacts-map-card-list__phone svg,
@@ -1324,12 +1349,12 @@ figure.effect-julia:hover p {
   width: 2rem;
   height: 2rem;
   margin-right: 1.3rem;
-  margin-bottom: .2rem;
-  fill: var(--color-primary)
+  margin-bottom: 0.2rem;
+  fill: var(--color-primary);
 }
 
 .contacts-map-card-list__phone {
-  margin-bottom: .7rem
+  margin-bottom: 0;
 }
 
 .contacts-map-card-item {
@@ -1343,7 +1368,7 @@ figure.effect-julia:hover p {
   flex-direction: column;
   padding: 2rem;
   background: var(--color-white);
-  border-radius: .5rem
+  border-radius: 0.5rem;
 }
 
 .contacts-map-card-item__back {
@@ -1357,21 +1382,21 @@ figure.effect-julia:hover p {
   background: none;
   border: none;
   box-shadow: none;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .contacts-map-card-item__back svg {
-  width: .5rem;
+  width: 0.5rem;
   height: 1rem;
   margin-right: 2rem;
   transform: rotate(180deg);
-  transition: .2s ease-in-out;
-  fill: var(--color-gray)
+  transition: 0.2s ease-in-out;
+  fill: var(--color-gray);
 }
 
 @media (min-width: 768px) {
   .contacts-map-card-item__back:hover svg {
-    transform: rotate(180deg) translateX(.1rem)
+    transform: rotate(180deg) translateX(0.1rem);
   }
 }
 
@@ -1380,13 +1405,13 @@ figure.effect-julia:hover p {
   color: var(--color-black);
   font-weight: 600;
   font-size: 2.4rem;
-  line-height: 1.3
+  line-height: 1.3;
 }
 
 @media (min-width: 600px) {
   .contacts-map-card-item__title {
     margin-bottom: 2.5rem;
-    font-size: 2.8rem
+    font-size: 2.8rem;
   }
 }
 
@@ -1396,16 +1421,15 @@ figure.effect-julia:hover p {
 .contacts-map-card-item__time {
   font-weight: 500;
   font-size: 1.8rem;
-  line-height: 1.4
+  line-height: 1.4;
 }
 
 @media (min-width: 600px) {
-
   .contacts-map-card-item__address,
   .contacts-map-card-item__contacts,
   .contacts-map-card-item__location,
   .contacts-map-card-item__time {
-    font-size: 2rem
+    font-size: 2rem;
   }
 }
 
@@ -1418,45 +1442,44 @@ figure.effect-julia:hover p {
   width: 2rem;
   height: 2rem;
   margin-right: 2rem;
-  margin-bottom: .2rem;
-  fill: var(--color-primary)
+  margin-bottom: 0.2rem;
+  fill: var(--color-primary);
 }
 
 .contacts-map-card-item__contacts,
 .contacts-map-card-item__time {
-  margin-bottom: 2rem
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 600px) {
-
   .contacts-map-card-item__contacts,
   .contacts-map-card-item__time {
-    margin-bottom: 2.5rem
+    margin-bottom: 2.5rem;
   }
 }
 
 .contacts-map-card-item__contacts a,
 .contacts-map-card-item__time {
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 .contacts-map-card-item__address {
   display: flex;
-  align-items: flex-start
+  align-items: flex-start;
 }
 
 .contacts-map-card-item__address svg {
-  margin-top: .4rem
+  margin-top: 0.4rem;
 }
 
 .contacts-map-card-item__location {
-  padding-left: 4rem
+  padding-left: 4rem;
 }
 
 .contacts-map-card-item__location span {
   color: var(--color-primary);
-  border-bottom: .1rem solid
+  border-bottom: 0.1rem solid;
 }
 
 .contacts-map-card-item__button {
@@ -1468,10 +1491,10 @@ figure.effect-julia:hover p {
   font-weight: 600;
   font-size: 1.6rem;
   line-height: 5.2rem;
-  letter-spacing: -.01em;
+  letter-spacing: -0.01em;
   text-align: center;
   background: var(--color-primary);
-  border-radius: .5rem
+  border-radius: 0.5rem;
 }
 
 @media (min-height: 600px) {
@@ -1553,7 +1576,6 @@ figure.effect-julia:hover p {
 }
 
 @media (max-width: 620px) {
-
   .contact-form,
   .contact-details {
     width: 100%;
